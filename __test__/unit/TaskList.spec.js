@@ -1,7 +1,7 @@
 import { shallowMount } from '@vue/test-utils'
-import TaskList from '@/components/TaskList.vue' // Asegúrate de que la ruta sea correcta
+import TaskList from '@/components/TaskList.vue'
 import axios from 'axios'
-import types from '@/types.js' // Importa el archivo de tipos
+import types from '@/types.js' 
 
 // Mocking axios
 jest.mock('axios')
@@ -14,7 +14,7 @@ describe('TaskList.vue', () => {
       { id: 2, title: 'Task 2', description: 'Description 2', status: false },
     ]
 
-    // Mocking the axios get response
+    // Simulación de la respuesta de axios get
     axios.get.mockResolvedValue({ data: tasks })
 
     const wrapper = shallowMount(TaskList, {

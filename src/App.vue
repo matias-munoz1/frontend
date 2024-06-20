@@ -12,7 +12,6 @@
             class="navbar-brand d-flex align-items-center ms-5"
             to="/"
           >
-            <!-- Ajustado a ms-5 -->
             <img src="@/assets/logo.png" alt="Logo" class="me-2 logo" />
             <span>{{ types.NAME_APP }}</span>
           </router-link>
@@ -32,9 +31,7 @@
             id="navbarNav"
           >
             <ul class="navbar-nav mb-2 mb-lg-0 me-3">
-              <!-- Ajuste de margen -->
               <li class="nav-item me-3">
-                <!-- Agregado me-3 para más separación -->
                 <router-link class="nav-link nav-item-hover" to="/">
                   <i class="bi bi-house-door-fill"></i>{{ types.START }}
                 </router-link>
@@ -45,7 +42,6 @@
                 </router-link>
               </li>
               <li class="nav-item ms-3">
-                <!-- Agregado ms-3 para más separación -->
                 <button
                   @click="toggleTheme"
                   class="btn btn-outline-secondary theme-button"
@@ -152,8 +148,8 @@ header {
 }
 
 .theme-button {
-  font-size: 1.5rem; /* Incrementa el tamaño del botón */
-  padding: 0.5rem 1rem; /* Ajusta el relleno para el tamaño del botón */
+  font-size: 1.5rem; 
+  padding: 0.5rem 1rem; 
 }
 
 .btn-outline-secondary:hover {
@@ -165,7 +161,6 @@ header {
   height: 40px;
 }
 
-/* Tema oscuro */
 .dark-theme {
   background-color: #212529;
   color: #ffffff;
@@ -197,7 +192,6 @@ header {
   color: #ffffff;
 }
 
-/* Tema claro */
 .light-theme {
   background-color: #f8f9fa;
   color: #212529;
@@ -254,7 +248,6 @@ header {
   background-color: inherit;
 }
 
-/* Icono del tema */
 .theme-icon {
   width: 24px;
   height: 24px;

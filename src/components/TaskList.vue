@@ -441,10 +441,9 @@ export default {
 }
 .page-link {
   cursor: pointer;
-  outline: none !important; /* Elimina el borde azul */
+  outline: none !important; 
 }
 
-/* Estilos adicionales para ajustar el tema oscuro */
 .bg-dark .table-dark thead th,
 .bg-dark .table-dark tbody td {
   background-color: #343a40;
@@ -465,7 +464,6 @@ export default {
   color: #000000;
 }
 
-/* Estilo para el componente de paginación en modo oscuro */
 .bg-dark .pagination-dark .page-item .page-link {
   background-color: #495057;
   color: #ffffff;
@@ -476,7 +474,6 @@ export default {
   color: #343a40;
 }
 
-/* Estilo para el componente de paginación en modo claro */
 .bg-light .pagination-light .page-item .page-link {
   background-color: #ffffff;
   color: #000000;

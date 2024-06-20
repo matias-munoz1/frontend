@@ -26,11 +26,11 @@ module.exports = {
         semi: false,
         trailingComma: 'es5',
         bracketSpacing: true,
-        // Añade configuraciones específicas de Prettier aquí
+        
       },
     ],
     'comma-dangle': ['error', 'only-multiline'],
-    'space-before-function-paren': 'off', // Desactiva el requerimiento de espacios antes de paréntesis de función
+    'space-before-function-paren': 'off', 
     'no-unused-vars': [
       'error',
       { vars: 'all', args: 'none', ignoreRestSiblings: false },
