@@ -26,11 +26,10 @@ module.exports = {
         semi: false,
         trailingComma: 'es5',
         bracketSpacing: true,
-        
       },
     ],
     'comma-dangle': ['error', 'only-multiline'],
-    'space-before-function-paren': 'off', 
+    'space-before-function-paren': 'off',
     'no-unused-vars': [
       'error',
       { vars: 'all', args: 'none', ignoreRestSiblings: false },

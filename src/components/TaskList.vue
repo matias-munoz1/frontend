@@ -441,7 +441,7 @@ export default {
 }
 .page-link {
   cursor: pointer;
-  outline: none !important; 
+  outline: none !important;
 }
 
 .bg-dark .table-dark thead th,

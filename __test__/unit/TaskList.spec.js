@@ -1,7 +1,7 @@
 import { shallowMount } from '@vue/test-utils'
 import TaskList from '@/components/TaskList.vue'
 import axios from 'axios'
-import types from '@/types.js' 
+import types from '@/types.js'
 
 // Mocking axios
 jest.mock('axios')

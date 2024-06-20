@@ -148,8 +148,8 @@ header {
 }
 
 .theme-button {
-  font-size: 1.5rem; 
-  padding: 0.5rem 1rem; 
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
 }
 
 .btn-outline-secondary:hover {
