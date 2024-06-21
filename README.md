@@ -36,7 +36,7 @@ Para iniciar el servidor de desarrollo, utilizar el siguiente comando:
   ```
 ## Uso
 Una vez que la aplicacion esté en ejecución, podras interactuar con la interfaz para gestionar tus tareas
-##Interfaz de usuario
+## Interfaz de usuario
 En la interfaz principal, puedes ver una lista de tareas con las siguientes columnas:
 - ID: El identificador único de la tarea.
 - Título: El nombre de la tarea.
